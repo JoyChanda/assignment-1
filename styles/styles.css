@@ -1,7 +1,7 @@
 /* shared style */
-.v-align{
+/* .v-align{
     margin-top: 200px;
-}
+} */
 .text-center{
     text-align: center;
 }
@@ -25,7 +25,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .btn-primary:hover {
@@ -57,9 +57,16 @@ nav{
 
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 34px;
     color: #4E47FF;
     font-family: "Inter", sans-serif;
+}
+
+.banner-tittle{
+    font-size: 65px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
 }
 
 /* Action Section Style */
