@@ -314,4 +314,48 @@ nav{
   min-height: 120px;
 }
 
+/* footer style */
+
+.footer-bottom {
+  background-color: #f9f9fc;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-logo {
+  font-family: 'Inter';
+  font-size: 100px;
+  font-weight: 900;
+  color: #4f46e5;
+  margin-bottom: 20px;
+  
+}
+
+.footer-tagline {
+  font-family: 'Raleway';
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  font-family: 'Raleway';
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
 
